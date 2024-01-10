@@ -1,0 +1,55 @@
+{
+    "primitives": [
+        {
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "file_path": "meshes\\bin.obj",
+            "type": "mesh",
+            "number": 1,
+            "initial_instance_id": 62,
+            "instance_ids": [
+                62
+            ],
+            "category_id": 0,
+            "material": "material_0"
+        },
+        {
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "file_path": "meshes\\object.obj",
+            "type": "mesh",
+            "number": 20,
+            "initial_instance_id": 42,
+            "instance_ids": [
+                61,
+                60,
+                59,
+                58,
+                57,
+                56,
+                55,
+                54,
+                53,
+                52,
+                51,
+                50,
+                49,
+                48,
+                47,
+                46,
+                45,
+                44,
+                43,
+                42
+            ],
+            "category_id": 1,
+            "material": "material_1"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "cameras": [
+        {
+            "type": "PERSP",
+            "image_width": 640,
+            "image_height": 480,
+            "fov_x": 1.5707963267948966,
+            "min_render_distance": 0.009999999776482582,
+            "max_render_distance": 1000.0,
+            "cam_k": [
+                320.0,
+                0.0,
+                320.0,
+                0.0,
+                320.0,
+                240.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "shift_x": 0,
+            "shift_y": 0,
+            "resolution_x": 640,
+            "resolution_y": 480,
+            "clip_start": 0.009999999776482582,
+            "clip_end": 1000.0,
+            "sensor": {
+                "fit": "AUTO",
+                "size": 36.0
+            },
+            "focus_length": 18.0
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "lights": [
+        {
+            "type": "SUN",
+            "color": [
+                1,
+                1,
+                1
+            ],
+            "strength": 1,
+            "angle": 0.5
+        },
+        {
+            "type": "SUN",
+            "color": [
+                1,
+                0,
+                0
+            ],
+            "strength": 5,
+            "angle": 0.5
+        },
+        {
+            "type": "SUN",
+            "color": [
+                0,
+                1,
+                0
+            ],
+            "strength": 5,
+            "angle": 0.5
+        },
+        {
+            "type": "SUN",
+            "color": [
+                0,
+                0,
+                1
+            ],
+            "strength": 5,
+            "angle": 0.5
+        },
+        {
+            "type": "POINT",
+            "color": [
+                0,
+                1,
+                0
+            ],
+            "power": 5,
+            "radius": 0.25
+        },
+        {
+            "type": "SPOT",
+            "color": [
+                1,
+                0,
+                0
+            ],
+            "power": 50,
+            "radius": 0.1,
+            "spot_size": 60,
+            "blend": 0.5
+        },
+        {
+            "type": "AREA",
+            "color": [
+                1,
+                0.89,
+                0.77
+            ],
+            "power": 10,
+            "shape": "RECTANGLE",
+            "size": [
+                0.5,
+                0.4
+            ],
+            "spread": 3.14159
+        }
+    ]
+}
