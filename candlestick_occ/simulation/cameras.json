@@ -1,0 +1,18 @@
+{
+	"cameras": [
+		{
+			"type": "PERSP",
+			"shift_x": 0,
+			"shift_y": 0,
+			"resolution_x": 640,
+			"resolution_y": 480,
+			"clip_start": 0.009999999776482582,
+			"clip_end": 1000.0,
+			"sensor": {
+				"fit": "AUTO",
+				"size": 36.0
+			},
+			"focus_length": 47.09850374064838
+		}
+	]
+}
