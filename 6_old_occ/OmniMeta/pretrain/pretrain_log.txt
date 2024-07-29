@@ -1,0 +1,170 @@
+
+config : D:/yyf_file/yyf_paper/projects/6_old_occ/OmniMeta/OMNIConfig.json
+max_scene : 10
+max_data : 60
+normal : False
+incremental : True
+num_point : 32768
+batch_size : 2
+max_epoch : 16
+eval_epoch : 2
+display_iter : 10
+checkpoint : None
+gpus : 0
+base_learning_rate : 0.001
+lr_decay_epoch : 12
+lr_decay_rate : 0.7
+minimum_lr : 1e-06
+bn_momentum_init : 0.5
+bn_momentum_min : 0.001
+bn_decay_rate : 0.5
+cls_weight : 1
+trans_weight : 1
+rot_weight : 1
+max_instance : 100
+instance_augmentation : False
+instance_wipe_prob : 0.2
+instance_scale_prob : 0.2
+instance_min_scale : 0.85
+instance_max_scale : 0.95
+scene_normalize : False
+scene_jitter_prob : 0.5
+scene_90_prob : 0
+scene_shift_prob : 0.5
+num_point_model : 128
+scale : 1000
+root_dir : D:/yyf_file/yyf_paper/projects/6_old_occ/OmniMeta
+dataset_folder : datasets
+model_dir : ../models
+workpieces : workpieces
+time_stamp : 20231225172753
+checkpoint_path : None
+ckp_best : ckp_best
+ckp_last : ckp_last
+ckp_fast : ckp_fast
+workpieces_config : [{'workpiece_dir': 'workpieces/workpiece1/workpiece_rectify.stl', 'workpiece_meta_dir': 'workpieces/workpiece1/workpiece_meta.json'}]
+loss_weights : {'trans_head': 1, 'rot_head': 1, 'cls_head': 1}
+backbone_config : {'npoint_per_layer': [4096, 1024, 256, 64], 'radius_per_layer': [[5, 15, 25], [25, 40, 55], [55, 75, 95], [95, 140, 200]]}
+[Info] No pretrain model, then training from scratch.
+[Info] Wait for 2 second...
+[Info] Wait for 4 second...
+[Info] Wait for 6 second...
+[Info] Wait for 8 second...
+[Info] Wait for 10 second...
+[Info] Wait for 12 second...
+[Info] Wait for 14 second...
+[Info] Wait for 16 second...
+[Info] Wait for 18 second...
+[Info] Wait for 20 second...
+[Info] Wait for 22 second...
+[Info] Wait for 24 second...
+
+********************
+[Info] Check scene scene_000 with 60 data
+[Data] Train scene: 60 
+>>> [Info] Repeat 0
+Iteration: 1.00
+trans_loss: 20.086
+rot_loss: 22.143
+total_loss: 42.229
+iter_time: 38.3
+------------------------
+[Time] Training time per scene 39.9 second
+
+********************
+[Info] Check scene scene_001 with 60 data
+[Data] Train scene: 60 
+>>> [Info] Repeat 0
+Iteration: 1.00
+trans_loss: 16.613
+rot_loss: 16.591
+total_loss: 33.203
+iter_time: 17.2
+------------------------
+[Time] Training time per scene 18.3 second
+
+********************
+[Info] Check scene scene_002 with 60 data
+[Data] Train scene: 60 
+>>> [Info] Repeat 0
+Iteration: 1.00
+trans_loss: 13.705
+rot_loss: 19.470
+total_loss: 33.175
+iter_time: 17.2
+------------------------
+[Time] Training time per scene 18.1 second
+
+********************
+[Info] Check scene scene_003 with 60 data
+[Data] Train scene: 60 
+>>> [Info] Repeat 0
+Iteration: 1.00
+trans_loss: 13.006
+rot_loss: 20.488
+total_loss: 33.494
+iter_time: 17.4
+------------------------
+[Time] Training time per scene 18.2 second
+
+********************
+[Info] Check scene scene_004 with 60 data
+[Data] Train scene: 60 
+>>> [Info] Repeat 0
+Iteration: 1.00
+trans_loss: 11.040
+rot_loss: 18.443
+total_loss: 29.483
+iter_time: 17.4
+------------------------
+[Time] Training time per scene 18.2 second
+[Info] Wait for 2 second...
+[Info] Wait for 4 second...
+[Info] Wait for 6 second...
+[Info] Wait for 8 second...
+
+********************
+[Info] Check scene scene_005 with 60 data
+[Data] Train scene: 60 
+>>> [Info] Repeat 0
+[Error] data D:/yyf_file/yyf_paper/projects/6_old_occ/OmniMeta\datasets\scene_005\data_000.h5 error, please check
+Iteration: 1.00
+trans_loss: 11.425
+rot_loss: 18.588
+total_loss: 30.013
+iter_time: 17.7
+------------------------
+[Time] Training time per scene 18.6 second
+[Info] Wait for 2 second...
+[Info] Wait for 4 second...
+[Info] Wait for 6 second...
+
+********************
+[Info] Check scene scene_006 with 60 data
+[Data] Train scene: 60 
+>>> [Info] Repeat 0
+Iteration: 1.00
+trans_loss: 10.193
+rot_loss: 18.206
+total_loss: 28.399
+iter_time: 17.4
+------------------------
+[Time] Training time per scene 18.2 second
+[Info] Wait for 2 second...
+[Info] Wait for 4 second...
+[Info] Wait for 6 second...
+[Info] Wait for 8 second...
+
+********************
+[Info] Check scene scene_007 with 60 data
+[Data] Train scene: 60 
+>>> [Info] Repeat 0
+Iteration: 1.00
+trans_loss: 9.268
+rot_loss: 17.179
+total_loss: 26.447
+iter_time: 17.6
+------------------------
+[Time] Training time per scene 18.5 second
+[Info] Wait for 2 second...
+[Save] Incremental model saved: D:/yyf_file/yyf_paper/projects/6_old_occ/OmniMeta\pretrain\ckp_fast.pth 
