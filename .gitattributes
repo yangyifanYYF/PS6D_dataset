@@ -1,0 +1,8 @@
+7 filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+workpieces filter=lfs diff=lfs merge=lfs -text
+6.zip filter=lfs diff=lfs merge=lfs -text
+6_occ.zip filter=lfs diff=lfs merge=lfs -text
+6_old.zip filter=lfs diff=lfs merge=lfs -text
+6_old_occ.zip filter=lfs diff=lfs merge=lfs -text
+7.zip filter=lfs diff=lfs merge=lfs -text
