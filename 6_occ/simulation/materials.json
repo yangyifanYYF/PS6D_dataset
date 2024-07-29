@@ -1,0 +1,92 @@
+{
+    "materials": [
+        {
+            "id": 1,
+            "material_properties": {
+                "Alpha": 1,
+                "Anisotropic": 0,
+                "Anisotropic Rotation": 0,
+                "Base Color": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "Clearcoat": 0,
+                "Clearcoat Roughness": 0,
+                "Emission": {
+                    "Emission": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "Emission Strength": 1
+                },
+                "IOR": 1.4500000476837158,
+                "Metallic": 0.5,
+                "Roughness": 0,
+                "Sheen": 0,
+                "Sheen Tint": 0.5,
+                "Specular": 0.5,
+                "Subsurface": 0,
+                "Subsurface Color": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "Subsurface IOR": 1.399999976158142,
+                "Transmission": 0,
+                "Transmission Roughness": 0
+            },
+            "name": "material_1",
+            "shader": "Principled",
+            "type": 1
+        },
+        {
+            "id": 1,
+            "material_properties": {
+                "Alpha": 1,
+                "Anisotropic": 0,
+                "Anisotropic Rotation": 0,
+                "Base Color": [
+                    0.019607843831181526,
+                    0.054901961237192154,
+                    0.21960784494876862,
+                    1
+                ],
+                "Clearcoat": 0,
+                "Clearcoat Roughness": 0.029999999329447746,
+                "Emission": {
+                    "Emission": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "Emission Strength": 1
+                },
+                "IOR": 1.4500000476837158,
+                "Metallic": 0,
+                "Roughness": 0,
+                "Sheen": 0,
+                "Sheen Tint": 0.5,
+                "Specular": 0,
+                "Subsurface": 0,
+                "Subsurface Color": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "Subsurface IOR": 1.399999976158142,
+                "Transmission": 0,
+                "Transmission Roughness": 0
+            },
+            "name": "material_0",
+            "shader": "Principled",
+            "type": 2
+        }
+    ]
+}

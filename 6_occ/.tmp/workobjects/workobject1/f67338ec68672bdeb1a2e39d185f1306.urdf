@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="object">
+	<link name="base_link">
+		<inertial>
+			<origin xyz="-8.2792E-03 1.4097E-04 9.9933E-04" rpy="0.0000E+00 0.0000E+00 0.0000E+00"/>
+			<mass value="1.0000E+00"/>
+			<inertia ixx="1.2376E-10" ixy="-1.4957E-11" ixz="-1.4957E-11" iyy="9.7897E-10" iyz="1.8707E-13" izz="1.0099E-09"/>
+		</inertial>
+		<visual>
+			<origin xyz="0.0000E+00 0.0000E+00 0.0000E+00" rpy="0.0000E+00 0.0000E+00 0.0000E+00"/>
+			<geometry>
+				<mesh filename="20e8735f469cc0e27b807d09b37e86a9.stl" scale="1.0000E+00 1.0000E+00 1.0000E+00"/>
+			</geometry>
+			<material name="custom">
+				<color rgba="1.0000E+00 1.0000E+00 1.0000E+00 1.0000E+00"/>
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0.0000E+00 0.0000E+00 0.0000E+00" rpy="0.0000E+00 0.0000E+00 0.0000E+00"/>
+			<geometry>
+				<mesh filename="0e1bfe67b7bb7cdce00153cf64aeba02.obj" scale="1.0000E+00 1.0000E+00 1.0000E+00"/>
+			</geometry>
+		</collision>
+		<contact>
+			<lateral_friction value="5.0000E-01"/>
+			<rolling_friction value="1.0000E-03"/>
+			<spinning_friction value="1.0000E-02"/>
+			<restitution value="0.0000E+00"/>
+		</contact>
+	</link>
+</robot>

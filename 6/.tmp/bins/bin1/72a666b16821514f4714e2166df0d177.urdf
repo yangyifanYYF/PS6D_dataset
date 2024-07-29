@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<robot name="custom_bin">
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0.0000E+00 0.0000E+00 2.3500E-01" rpy="0.0000E+00 0.0000E+00 0.0000E+00"/>
+      <mass value="1.0000E+00"/>
+      <inertia ixx="5.5331E-03" ixy="-0.0000E+00" ixz="-0.0000E+00" iyy="6.4206E-03" iyz="-0.0000E+00" izz="5.8125E-03"/>
+    </inertial>
+    <visual>
+      <origin xyz="0.0000E+00 0.0000E+00 0.0000E+00" rpy="0.0000E+00 0.0000E+00 0.0000E+00"/>
+      <geometry>
+        <mesh filename="2a309d28c7e13beb7bb6ad576823f16e.stl" scale="1.0000E+00 1.0000E+00 1.0000E+00"/>
+      </geometry>
+      <material name="undefined">
+        <color rgba="1.0000E+00 1.0000E+00 1.0000E+00 1.0000E+00"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0000E+00 0.0000E+00 -2.5000E-02" rpy="0.0000E+00 0.0000E+00 0.0000E+00"/>
+      <geometry>
+        <box size="6.0000E-01 5.0000E-01 5.0000E-02"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="2.7500E-01 0.0000E+00 2.7500E-01" rpy="0.0000E+00 0.0000E+00 0.0000E+00"/>
+      <geometry>
+        <box size="5.0000E-02 5.0000E-01 6.5000E-01"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-2.7500E-01 0.0000E+00 2.7500E-01" rpy="0.0000E+00 0.0000E+00 0.0000E+00"/>
+      <geometry>
+        <box size="5.0000E-02 5.0000E-01 6.5000E-01"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.0000E+00 2.2500E-01 2.7500E-01" rpy="0.0000E+00 0.0000E+00 0.0000E+00"/>
+      <geometry>
+        <box size="6.0000E-01 5.0000E-02 6.5000E-01"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.0000E+00 -2.2500E-01 2.7500E-01" rpy="0.0000E+00 0.0000E+00 0.0000E+00"/>
+      <geometry>
+        <box size="6.0000E-01 5.0000E-02 6.5000E-01"/>
+      </geometry>
+    </collision>
+    <contact>
+      <lateral_friction value="7.0000E-01"/>
+      <rolling_friction value="1.0000E-03"/>
+      <spinning_friction value="1.0000E-02"/>
+      <restitution value="0.0000E+00"/>
+    </contact>
+  </link>
+</robot>
